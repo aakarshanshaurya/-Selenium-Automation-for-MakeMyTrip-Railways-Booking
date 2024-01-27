@@ -128,6 +128,8 @@ public class App {
 		// Clicking Search button
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("// *[@id='root']/div/div[2]/div/div/div/div[2]/p/a")).click();
+
+		//closes the browser
 //		driver.close();
 
 	}
